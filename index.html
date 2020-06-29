@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Virtual Music Studio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">VIRTUAL MUSIC STUDIO</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#create">CREATE</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#share">SHARE</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#explore">EXPLORE</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#btncontact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="col-10 col-sm-3">
+        <div id="contact" class="modal fade" tabindex="-1" role="dialog">
+
+            <div class="modal-dialog" role="content">
+                <div class="modal-content bg-primary">
+                    <div class="modal-header">
+                        <h3>Contact Us</h3>
+                        <button type="button" class="close" data-dismiss="modal">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <form>
+
+                                <div class="form-group row">
+
+                                    <label for="email1" class="col-form-label col-12 col-sm-2">Email</label>
+                                    <div class="col-12 col-sm-10">
+                                        <input type="email" class="form-control" id="email1" name="email1">
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    <label for="feedback" class="col-form-label col-12 col-sm-2">Feedback</label>
+                                    <div class="col-12 col-sm-10">
+                                        <textarea class="form-control" id="feedback" name="feedback"
+                                            placeholder="Feedback">
+                                        </textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-12" id="submit1">
+                                        <button type="submit" class="btn btn-outline-light align-self-center"
+                                            id="btnsubmit1">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container" id="intro">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <h1>Make Music Online</h1>
+                <h3>Get creative and make songs directly in your browser!</h3>
+                <ul class="d-none d-sm-block" type="square">
+                    <li>Make some noise, explore a new sound, create a song or collaborate with others. Welcome to the
+                        collective of passionate creators, whether you already are one or aspire to become one.</li><br>
+                    <li>Put your music career on a great start without having to worry about any kind of physical
+                        resources needed for this job.</li><br>
+                    <li>This is a platform that's easy to use and the premium sound library opens up your creativity
+                    </li><br>
+                    <li>Along with making music, make friends on this site who have the same taste as you</li><br>
+
+                </ul>
+            </div>
+            <div class="col-12 offset-sm-2 col-sm-4">
+                <div class="card bg-primary">
+                    <div class="card-header">
+                        <h3 class="text-white">Sign Up Today</h3>
+                        <h6>Please fill out this form to register</h6>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row">
+                                <div class="col-12">
+                                    <input type="text" class="form-control" id="username" name="username"
+                                        placeholder="Username">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-12">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-12">
+                                    <input type="password" class="form-control" id="password" name="password"
+                                        placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-12">
+                                    <input type="password" class="form-control" id="confirm" name="confirm"
+                                        placeholder="Confirm Password">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-12" id="submit">
+                                    <button type="submit" class="btn btn-outline-light align-self-center"
+                                        id="btnsubmit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="row" id="create">
+        <div class="container">
+
+            <h2>CREATE</h2><br>
+            <p>Explore our extensive collection of beats, loops and instruments or connect your own instrument. If you
+                have the urge to create, there are no longer any excuses.</p>
+            <button class="btn btn-outline-light">Create your Music</button>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row row-header">
+            <div class="col-12 offset-md-2 col-md-5">
+                <h3>SHOW OFF WHAT YOU CREATE</h3><br>
+
+                <ul type="square">
+                    <li>Hundreds of ready-to-mix basslines, drum beats and melodies in the library.
+                    </li><br>
+                    <li> Easy-to-use drum machines, samplers and synthesizers just a click away.Create your own beats
+                        with pro music tools.</li><br>
+                    <li> Let your imagination soar high. There's nothing that can stop
+                        you here! Let's not waste anymore time and create music.</li><br>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-4 align-self-center">
+                <img src="./img/create.jpg" class="img-fluid" height="300" width="300">
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="share">
+        <div class="container">
+
+            <h2>SHARE</h2><br>
+            <p>Share all of your creative moments and collaborate in real time with your bandmates, other artists or
+                anyone else. Make new music with friends and new friends with music.</p>
+            <button class="btn btn-outline-light">Share your Music</button>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row row-header">
+            <div class="col-12 col-sm-4 offset-md-2 align-self-center">
+                <img src="./img/sharing.png" class="img-fluid" height="350" width="300">
+            </div>
+            <div class="col-12 col-md-5 mr-auto d-block">
+                <h3>LET THE WORLD ENJOY YOUR MUSIC!</h3><br>
+
+                <ul type="square">
+                    <li>Invite multiple people to collaborate on your project and record on separate tracks in the
+                        studio.
+                    </li><br>
+                    <li> Enjoy endless possibilities for collaboration with friends and family around the world.</li>
+                    <br>
+                    <li> Connect and gain knowledge through our virtual learning environment. </li><br>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row" id="explore">
+        <div class="container">
+
+            <h2>EXPLORE</h2><br>
+            <p>Whether it's chatting with friends and music lovers across the planet or creating a private group to
+                collaborate on a track you can simply drag and drop sounds and recordings back and forth to instantly,
+                and simply make music together.
+            </p>
+            <button class="btn btn-outline-light">Find Out More</button>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row row-header">
+            <div class="col-12 offset-md-2 col-md-5">
+                <h3>EXPLORE AND LEARN MORE!</h3><br>
+
+                <ul type="square">
+                    <li>This is a vibrant community of creators and music lovers from all walks of life and of all ages.
+                        Positivity, feedback and support is at the core.
+                    </li><br>
+                    <li>Virtual Music Studio is created from the ground up to empower collaboration and making music
+                        together.</li><br>
+                    <li> You will have access to an extensive collection of quality loops, effects and software
+                        instruments.</li><br>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-4 align-self-center">
+                <img src="./img/explore.jpg" class="img-fluid" height="300" width="300">
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-auto" id="contact">
+            <p>© Copyright 2020</p>
+            <button class="btn btn-primary btn-block btn-sm" id="btncontact" data-toggle="modal" data-target="#contact">
+                Contact Us
+            </button>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#intro{
+    background-image: url("../img/background.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index: 0;
+    background-color: black;
+}
+
+
+.row{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-header{
+    text-align: center;
+}
+
+#submit{
+    text-align: center;
+}
+
+#btnsubmit{
+    width: 100%;
+}
+
+#create{
+    padding: 50px;
+    background-color: rgb(49, 45, 45);
+    text-align: center;
+    
+}
+
+#share{
+    padding: 50px;
+    background-color: rgb(49, 45, 45);
+    text-align: center;
+}
+
+#explore{
+    padding: 50px;
+    background-color: rgb(49, 45, 45);
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    
+}
+
+.row.row-header{
+    
+    padding: 50px;
+    background-color: white;
+    color: black;
+}
+
+#contact{
+    padding: 50px;
+}
+
+.modal-content{
+   
+   margin-left: -30px;
+}
